@@ -1,0 +1,227 @@
+/********************
+GENERAL
+********************/
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+
+body {
+	font-family: 'open sans', sans-serif;
+}
+
+
+#wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 5%;
+	clear: both;
+	background-image: url(../img/patter.jpg);
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+
+/********************
+HEADING
+********************/
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1{
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 30px; /*1em is equivalent to 16px*/
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	margin: -5px 0 0;
+	font-size: 20px; /*1em is equivalent to 16px*/
+	font-weight: normal;
+}
+
+
+
+/********************
+NAVIGATION
+********************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+/********************
+FOOTER
+********************/
+footer {
+	font-size: 16px;
+	text-align: center;
+	padding-top: 50px;
+	color: #0d2ca6;
+	clear:both;
+	padding-bottom: 20px;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+/********************
+PAGE PORTFOLIO
+********************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li{
+	list-style: none;
+	float: left;
+	width:40%;
+	margin: 5%;
+	background-image: url(../img/pattern2.jpg);
+	color:#bdc3c7;
+}
+
+#gallery li a p {
+	margin:0;
+	padding: 5%;
+	font-size: 12px;
+	color: #ffffff;
+}
+#gallery li a p:hover {
+	color: #22ddff;
+}
+
+
+
+/********************
+PAGE ABOUT
+********************/
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 20%;
+}
+
+
+
+/********************
+PAGE CONTACT
+********************/
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+.contact-info li.mail a {
+	background-image: url('../img/mail(1).png');
+}
+.contact-info li.twitter a {
+	background-image: url('../img/twitterr.png');
+}
+.contact-info li.bbm a {
+	background-image: url('../img/twitterr.png');
+}
+
+
+/********************
+COLORS
+********************/
+
+/* site body color*/
+body {
+	background-image: url(../img/patter.jpg);
+	background-color: #22ddff;
+	color: #000000;
+}
+/*violet header*/
+header {
+	background-image: url(../img/pattern2.jpg);
+	/*background: #007bff;*/
+	border-color: #9c7b5d;
+}
+
+/*nav background on mobile*/
+nav {
+	background: rgba(0, 0, 0, .2);
+}
+
+/*logo text*/
+h1, h2 {
+	color: #ffffff;
+}
+
+/*link color*/
+a {
+	color: #0d2ca6;
+}
+
+a:hover {
+	color: red;
+}
+
+/*nav links*/
+nav a {
+	color: #ffffff;
+} 
+
+nav a:hover{
+	color: grey;
+}
+/*selected nav link*/
+nav a.selected {
+	color: #22ddff;
+}
