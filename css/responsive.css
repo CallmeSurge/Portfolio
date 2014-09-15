@@ -1,0 +1,125 @@
+ @media screen and (min-width: 480px) {
+
+	/********************
+	TWO COLUMN LAYOUT
+	********************/
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+}
+
+
+
+	/********************
+	PAGE PORTFOLIO
+	********************/
+
+	#gallery li{
+		list-style: none;
+		margin: 10px 15% 10px 15% ;
+		width:70%;
+	}
+
+	#gallery li:nth-child(5n) {
+		clear: left;
+	}
+
+
+
+	/********************
+	PAGE ABOUT
+	********************/
+
+/*	.profile-photo {
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+*/
+
+  @media screen and (min-width: 680px){
+
+  	#gallery li{
+		list-style: none;
+		float: left;
+		width:40%;
+		margin: 5%;
+		background-color: #f5f5f5;
+		color:#bdc3c7;
+	}
+
+	#gallery li:nth-child(4n) {
+		width: 0;
+		visibility: hidden;
+	}
+
+	#gallery li a p {
+		margin:0;
+		padding: 5%;
+		font-size: 14px;
+	}
+
+
+
+
+  }
+
+
+
+  @media screen and (min-width: 1024px) {
+ 	
+  	/********************
+	HEADER
+	********************/
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	header {
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
+	
+	#gallery li{
+		list-style: none;
+		float: left;
+		width:30%;
+		margin: 1.6666%;
+		background-color: #f5f5f5;
+
+	}
+
+	#gallery li a p {
+		margin:0;
+		padding: 5%;
+		font-size: 14px;
+	}
+
+}	
