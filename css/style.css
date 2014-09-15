@@ -173,7 +173,10 @@ PAGE CONTACT
 	background-image: url('../img/twitterr.png');
 }
 .contact-info li.bbm a {
-	background-image: url('../img/twitterr.png');
+	background-image: url('../img/bbmicon.jpg');
+}
+.contact-info li.insta a {
+	background-image: url('../img/insta.png');
 }
 
 
