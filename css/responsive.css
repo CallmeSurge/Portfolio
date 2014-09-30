@@ -32,11 +32,12 @@
 	}
 
 	#portfolio {
-		padding-top: 200px;
+		padding-top: 170px;
 	}
 
 	#contact {
-		padding-top: 200px;
+		padding-top: 170px;
+		padding-bottom: 180px;
 	}
 
 
@@ -60,11 +61,6 @@
 		margin: 5%;
 		background-color: #f5f5f5;
 		color:#bdc3c7;
-	}
-
-	#gallery li:nth-child(4n) {
-		width: 0;
-		visibility: hidden;
 	}
 
 	#gallery li a p {
