@@ -14,7 +14,7 @@ header {
 
 
 body {
-	font-family: 'open sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	position: relative;
 	z-index: 100;
 }
@@ -57,7 +57,6 @@ HEADING
 }
 
 h1{
-	font-family: 'Changa One', sans-serif;
 	margin: 15px 0;
 	font-size: 30px; /*1em is equivalent to 16px*/
 	font-weight: normal;
