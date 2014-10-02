@@ -17,8 +17,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	position: relative;
 	z-index: 100;
-
-	background-color: rgba(0, 0, 0, .8);
 }
 
 
@@ -103,12 +101,15 @@ nav ul li a {
 FOOTER
 ********************/
 footer {
-	font-size: 16px;
+	font-size: 13px;
 	text-align: center;
-	padding-top: 50px;
 	color: #0d2ca6;
 	clear:both;
 	padding-bottom: 20px;
+}
+
+footer a {
+	color: purple;
 }
 
 .social-icon {
@@ -116,7 +117,10 @@ footer {
 	height: 20px;
 	margin: 0 5px;
 }
-
+.social-icon img:hover{
+  box-shadow: 0 0 30px rgb(0,0,51);
+  cursor: pointer;
+}
 
 /********************
 PAGE PORTFOLIO
@@ -150,8 +154,10 @@ PAGE PORTFOLIO
 
 #gallery li a p {
 	margin:0;
+	margin-top: -4px;
 	background-color: rgba(0,0,0, .7);
-	border-radius: 10px;
+	border-top: 2px solid #cc0000;
+	border-radius: 0 0 10px 10px;
 	padding: 3%;
 	font-size: 12px;
 	color: #e0e0e0;
