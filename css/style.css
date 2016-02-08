@@ -6,11 +6,16 @@ header {
 	margin: 0 0 30px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
+	position: fixed;
+	top:0px;
+	z-index: 20;
 }
 
 
 body {
-	font-family: 'open sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	z-index: 100;
 }
 
 
@@ -19,7 +24,14 @@ body {
 	margin: 0 auto;
 	padding: 0 5%;
 	clear: both;
-	background-image: url(../img/patter.jpg);
+	margin-top: -100px;
+	background-image: url(../img/cool.jpg);
+	background-attachment: fixed;
+}
+div {
+	max-width: 100%;
+	margin: 100px 0;
+	clear: both;
 }
 
 a {
@@ -45,9 +57,9 @@ HEADING
 }
 
 h1{
-	font-family: 'Changa One', sans-serif;
 	margin: 15px 0;
 	font-size: 30px; /*1em is equivalent to 16px*/
+  	text-shadow: 0 0 30px rgb(0,0,0);
 	font-weight: normal;
 	line-height: 0.8em;
 }
@@ -80,18 +92,22 @@ nav ul li {
 nav ul li a {
 	font-weight: 800;
 	padding: 15px 10px;
+  	text-shadow: 0 0 30px rgb(0,0,0);
 }
 
 /********************
 FOOTER
 ********************/
 footer {
-	font-size: 16px;
+	font-size: 13px;
 	text-align: center;
-	padding-top: 50px;
 	color: #0d2ca6;
 	clear:both;
 	padding-bottom: 20px;
+}
+
+footer a {
+	color: purple;
 }
 
 .social-icon {
@@ -100,10 +116,19 @@ footer {
 	margin: 0 5px;
 }
 
+.social-icon img:hover{
+  box-shadow: 0 0 30px rgb(0,0,51);
+  cursor: pointer;
+}
 
 /********************
 PAGE PORTFOLIO
 ********************/
+
+#portfolio {
+	position: relative;
+	padding-top: 120px;
+}
 
 #gallery {
 	margin: 0;
@@ -116,18 +141,30 @@ PAGE PORTFOLIO
 	float: left;
 	width:40%;
 	margin: 5%;
-	background-image: url(../img/pattern2.jpg);
+	background-image: url(../img/circuit.jpg);
 	color:#bdc3c7;
+	border-radius: 10px;
+}
+
+#gallery li:hover{
+  box-shadow: 0 0 30px rgb(0,0,51);
+  cursor: pointer;
 }
 
 #gallery li a p {
 	margin:0;
-	padding: 5%;
+	margin-top: -4px;
+	background-color: rgba(0,0,0, .7);
+	border-top: 2px solid #cc0000;
+	border-radius: 0 0 10px 10px;
+	padding: 3%;
 	font-size: 12px;
-	color: #ffffff;
+	color: #e0e0e0;
+  	text-shadow: 30px 30px 30px rgb(0,0,0);
 }
 #gallery li a p:hover {
-	color: #22ddff;
+  	cursor: pointer;
+	color: #ffffff;
 }
 
 
@@ -135,11 +172,16 @@ PAGE PORTFOLIO
 /********************
 PAGE ABOUT
 ********************/
+#about {
+	padding-top: 170px;
+}
+
 .profile-photo {
 	display: block;
 	max-width: 150px;
 	margin: 0 auto 30px;
 	border-radius: 20%;
+	box-shadow: 0 0 30px rgb(0,0,51);
 }
 
 
@@ -147,6 +189,10 @@ PAGE ABOUT
 /********************
 PAGE CONTACT
 ********************/
+#contact {
+	margin-bottom: 200px;
+}
+
 .contact-info {
 	list-style: none;
 	padding: 0;
@@ -173,7 +219,10 @@ PAGE CONTACT
 	background-image: url('../img/twitterr.png');
 }
 .contact-info li.bbm a {
-	background-image: url('../img/twitterr.png');
+	background-image: url('../img/bbmicon.jpg');
+}
+.contact-info li.insta a {
+	background-image: url('../img/insta.png');
 }
 
 
@@ -189,14 +238,15 @@ body {
 }
 /*violet header*/
 header {
-	background-image: url(../img/pattern2.jpg);
+	background: url(../img/circuit.jpg) no-repeat;
+	background-size: cover;
 	/*background: #007bff;*/
 	border-color: #9c7b5d;
 }
 
 /*nav background on mobile*/
 nav {
-	background: rgba(0, 0, 0, .2);
+	background: rgba(204, 0, 0, .4);
 }
 
 /*logo text*/
@@ -210,7 +260,8 @@ a {
 }
 
 a:hover {
-	color: red;
+  text-shadow: 0 0 10px rgb(21,36,200);
+  font-weight: bold;
 }
 
 /*nav links*/
@@ -219,7 +270,8 @@ nav a {
 } 
 
 nav a:hover{
-	color: grey;
+	text-shadow: 0 0 10px rgb(0,153,153);
+  	font-weight: bolder;
 }
 /*selected nav link*/
 nav a.selected {

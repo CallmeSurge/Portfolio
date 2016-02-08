@@ -31,6 +31,14 @@
 		clear: left;
 	}
 
+	#portfolio {
+		padding-top: 170px;
+	}
+
+	#contact {
+		padding-top: 170px;
+		padding-bottom: 180px;
+	}
 
 
 	/********************
@@ -54,19 +62,11 @@
 		color:#bdc3c7;
 	}
 
-	#gallery li:nth-child(4n) {
-		width: 0;
-		visibility: hidden;
-	}
-
 	#gallery li a p {
 		margin:0;
 		padding: 5%;
 		font-size: 14px;
 	}
-
-
-
 
   }
 
@@ -103,7 +103,7 @@
 	}
 
 	header {
-		border-bottom: 5px solid #599a68;
+		border-bottom: 5px solid #cc0000;
 		margin-bottom: 60px;
 	}
 	
@@ -120,6 +120,7 @@
 		margin:0;
 		padding: 5%;
 		font-size: 14px;
+		margin-top: -4px;
 	}
 
 }	
